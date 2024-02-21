@@ -1,7 +1,5 @@
+import {tokenise} from '../src/tokenise.mjs'
 
-function tokenise(input) {
-  return input.split(' ')
-}
 test('tokenise single word', () => {
   const toks = tokenise("banana")
 

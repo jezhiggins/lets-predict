@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A little Markov chain predictive text engine",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/**.test.js"
   },
   "author": "Jez Higgins, jez@jezuk.co.uk",
   "license": "MIT",
