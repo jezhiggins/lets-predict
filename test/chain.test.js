@@ -12,7 +12,7 @@ class Chain {
     return this.tokens.get(token)
   }
 
-  get length() {
+  get size() {
     return this.tokens.size
   }
 }
@@ -24,7 +24,7 @@ function make_chain() {
 test('empty chain', () => {
   const chain = make_chain()
 
-  expect(chain.length).toBe(0)
+  expect(chain.size).toBe(0)
 })
 
 test('adding a single token pair', () => {
@@ -32,7 +32,7 @@ test('adding a single token pair', () => {
 
   chain.push('hello', 'world')
 
-  expect(chain.length).toBe(1)
+  expect(chain.size).toBe(1)
 })
 
 test('make a prediction!', () => {
