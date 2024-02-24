@@ -1,25 +1,4 @@
-
-class Chain {
-  constructor() {
-    this.tokens = new Map()
-  }
-
-  add(token, follower) {
-    this.tokens.set(token, follower)
-  }
-
-  predict(token) {
-    return this.tokens.get(token)
-  }
-
-  get size() {
-    return this.tokens.size
-  }
-}
-
-function make_chain() {
-  return new Chain()
-}
+import {make_chain} from "../src/chain.mjs";
 
 test('empty chain', () => {
   const chain = make_chain()
