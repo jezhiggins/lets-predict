@@ -4,7 +4,7 @@ class Chain {
     this.tokens = new Map()
   }
 
-  push(token, follower) {
+  add(token, follower) {
     this.tokens.set(token, follower)
   }
 
@@ -30,7 +30,7 @@ test('empty chain', () => {
 test('adding a single token pair', () => {
   const chain = make_chain()
 
-  chain.push('hello', 'world')
+  chain.add('hello', 'world')
 
   expect(chain.size).toBe(1)
 })
@@ -39,10 +39,10 @@ test('make a prediction!', () => {
   const chain1 = make_chain()
   const chain2 = make_chain()
 
-  chain1.push('hello', 'world')
+  chain1.add('hello', 'world')
   const prediction1 = chain1.predict('hello')
 
-  chain2.push('hello', 'Brian')
+  chain2.add('hello', 'Brian')
   const prediction2 = chain2.predict('hello')
 
   expect(prediction1).toBe('world')
