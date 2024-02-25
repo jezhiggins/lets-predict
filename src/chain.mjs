@@ -1,19 +1,21 @@
+import {make_followers} from "./followers.mjs";
 
 class Chain {
-  constructor() {
-    this.tokens = new Map()
-  }
+  #tokens = new Map()
 
   add(token, follower) {
-    this.tokens.set(token, follower)
+    const followers = this.#tokens.get(token) ?? make_followers()
+    followers.add(follower)
+    this.#tokens.set(token, followers)
   }
 
-  predict(token) {
-    return this.tokens.get(token)
+  predict(token, weight) {
+    const followers = this.#tokens.get(token)
+    return followers.select(weight)
   }
 
   get size() {
-    return this.tokens.size
+    return this.#tokens.size
   }
 }
 

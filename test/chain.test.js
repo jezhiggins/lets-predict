@@ -15,14 +15,14 @@ test('adding a single token pair', () => {
 })
 
 test('make a prediction!', () => {
-  const chain1 = make_chain()
-  const chain2 = make_chain()
+  const chain = make_chain()
 
-  chain1.add('hello', 'world')
-  const prediction1 = chain1.predict('hello')
+  chain.add('hello', 'world')
+  chain.add('hello', 'Brian')
+  chain.add('hello', 'world')
 
-  chain2.add('hello', 'Brian')
-  const prediction2 = chain2.predict('hello')
+  const prediction1 = chain.predict('hello', 0.5)
+  const prediction2 = chain.predict('hello', 0.9)
 
   expect(prediction1).toBe('world')
   expect(prediction2).toBe('Brian')
