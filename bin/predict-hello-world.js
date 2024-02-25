@@ -9,5 +9,5 @@ chain.add('hello', 'everyone')
 chain.add('hello', 'world')
 chain.add('hello', 'world')
 
-for (let i = 0; i != 10; ++i)
+for (let i = 0; i !== 10; ++i)
   console.log('hello ' + chain.predict('hello'))
