@@ -9,7 +9,7 @@ class Chain {
     this.#tokens.set(token, followers)
   }
 
-  predict(token, weight) {
+  predict(token, weight = Math.random()) {
     const followers = this.#tokens.get(token)
     return followers.select(weight)
   }
