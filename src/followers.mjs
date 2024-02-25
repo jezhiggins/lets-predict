@@ -29,7 +29,7 @@ class Followers {
   }
 
   select(weight) {
-    const total = this.#followers.reduce((t, f) => t+f.count, 0)
+    const total = this.#totalCount
     weight *= total
     for (const follower of this.#followers) {
       weight -= follower.count
@@ -43,6 +43,10 @@ class Followers {
   }
 
   get size() { return this.#followers.length }
+
+  get #totalCount() {
+    return this.#followers.reduce((t, f) => t+f.count, 0)
+  }
 }
 
 function make_followers() {
