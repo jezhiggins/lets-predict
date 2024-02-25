@@ -19,10 +19,13 @@ class Followers {
 
   add(token) {
     const existing = this.#tokens.find(f => f.token === token)
+
     if (!existing)
       this.#tokens.push(new Follower(token))
     else
       existing.bump()
+
+    this.#tokens.sort((lhs, rhs) => rhs.count - lhs.count)
   }
 
   at(index) {

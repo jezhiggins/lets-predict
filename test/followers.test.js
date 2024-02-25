@@ -48,3 +48,21 @@ test('duplicate follower, so count is 2', () => {
   const f = followers.at(0)
   expectFollower(f, 'fruit', 2)
 })
+
+test('followers should be sorted in descending count order', () => {
+  const followers = make_followers()
+
+  const tokens = [
+    'nut', 'fruit', 'vegetable', 'vegetable', 'fruit', 'fruit'
+  ]
+  tokens.map(t => followers.add(t))
+
+  expect(followers.size).toBe(3)
+
+  const f = followers.at(0)
+  expectFollower(f, 'fruit', 3)
+  const v = followers.at(1)
+  expectFollower(v, 'vegetable', 2)
+  const n = followers.at(2)
+  expectFollower(n, 'nut', 1)
+})
