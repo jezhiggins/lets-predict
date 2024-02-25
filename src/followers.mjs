@@ -15,24 +15,34 @@ class Follower {
 }
 
 class Followers {
-  #tokens = []
+  #followers = []
 
   add(token) {
-    const existing = this.#tokens.find(f => f.token === token)
+    const existing = this.#followers.find(f => f.token === token)
 
     if (!existing)
-      this.#tokens.push(new Follower(token))
+      this.#followers.push(new Follower(token))
     else
       existing.bump()
 
-    this.#tokens.sort((lhs, rhs) => rhs.count - lhs.count)
+    this.#followers.sort((lhs, rhs) => rhs.count - lhs.count)
+  }
+
+  select(weight) {
+    const total = this.#followers.reduce((t, f) => t+f.count, 0)
+    weight *= total
+    for (const follower of this.#followers) {
+      weight -= follower.count
+      if (weight < 0)
+        return follower.token
+    }
   }
 
   at(index) {
-    return this.#tokens[index]
+    return this.#followers[index]
   }
 
-  get size() { return this.#tokens.length }
+  get size() { return this.#followers.length }
 }
 
 function make_followers() {

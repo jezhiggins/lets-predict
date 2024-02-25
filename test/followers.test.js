@@ -66,3 +66,22 @@ test('followers should be sorted in descending count order', () => {
   const n = followers.at(2)
   expectFollower(n, 'nut', 1)
 })
+
+test('select by weight - 0 to 1 float, scale to total count', () => {
+  const followers = make_followers()
+
+  const tokens = [
+    'nut', 'fruit', 'vegetable', 'vegetable', 'fruit', 'fruit'
+  ]
+  tokens.map(t => followers.add(t))
+
+  expect(followers.size).toBe(3)
+
+  const f = followers.select(0.1)
+  const v = followers.select(0.6)
+  const n = followers.select(0.9)
+
+  expect(f).toBe('fruit')
+  expect(v).toBe('vegetable')
+  expect(n).toBe('nut')
+})
