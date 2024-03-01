@@ -2,11 +2,15 @@ import { open } from 'node:fs/promises'
 import { tokenise} from "../src/tokenise.mjs";
 import { make_chain} from "../src/chain.mjs";
 
+function is_punctuation(w) {
+  return w === ',' || w === '.'
+}
 function generate(chain) {
   let all = ""
   let word = "Watson"
   for (let i = 0; i !== 100; ++i) {
-    all += word + " "
+    if (!is_punctuation(word)) all += " "
+    all += word
     word = sherlock.predict(word)
   }
 

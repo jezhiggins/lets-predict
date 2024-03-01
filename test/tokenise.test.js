@@ -26,3 +26,9 @@ test('commas are their own tokens', () => {
 
   expect_tokens(toks, 'custard', ',', 'apple')
 })
+
+test('full stops are their own tokens', () => {
+  const toks = tokenise('custard,    apple.  ')
+
+  expect_tokens(toks, 'custard', ',', 'apple', '.')
+})
