@@ -14,9 +14,11 @@ function generate(chain) {
   for (let i = 0; i !== 50; ++i) {
     if (!isPunctuation(word)) all += " "
     all += word
-    if (isTerminal(word))
+    if (isTerminal(word) && Math.random() < 0.75)
       break;
     word = chain.predict(word)
+    if (word === StartOfLine)
+      word = chain.predict(word)
   }
 
   console.log("=============")
@@ -33,7 +35,13 @@ async function* wordPairs(filename) {
     const tokens = tokenise(line)
     for (const token of tokens) {
       yield [prev, token]
-      prev = !isTerminal(token) ? token : StartOfLine
+
+      if (isTerminal(token)) {
+        yield [token, StartOfLine]
+        prev = StartOfLine
+      }
+      else
+        prev = token
     }
   }
 }
