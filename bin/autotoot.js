@@ -2,15 +2,20 @@ import { open } from 'node:fs/promises'
 import { tokenise} from "../src/tokenise.mjs";
 import { make_chain} from "../src/chain.mjs";
 
-function is_punctuation(w) {
-  return w === ',' || w === '.'
+function isPunctuation(w) {
+  return !w.match(/[\w\d]/)
+}
+function isTerminal(w) {
+  return w.match(/[\.!?]/)
 }
 function generate(chain) {
   let all = ""
-  let word = "Watson"
-  for (let i = 0; i !== 100; ++i) {
-    if (!is_punctuation(word)) all += " "
+  let word = "First"
+  for (let i = 0; i !== 50; ++i) {
+    if (!isPunctuation(word)) all += " "
     all += word
+    if (isTerminal(word))
+      break;
     word = sherlock.predict(word)
   }
 
@@ -33,10 +38,10 @@ async function* wordPairs(filename) {
 
 const sherlock = make_chain()
 
-for await (const [word, follower] of wordPairs('./data/complete-sherlock-holmes.txt'))
+for await (const [word, follower] of wordPairs('./data/toots.txt'))
   sherlock.add(word, follower)
 
-console.log("Sherlocked to the gills. Here goes ...");
+console.log("I've read all your mastodon");
 console.log()
 
 for (let i = 0; i !== 10; ++i)
