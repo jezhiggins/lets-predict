@@ -11,7 +11,7 @@ const whitespacePattern = /\s/
 function isWhitespace(str) {
   return str && str.match(whitespacePattern)
 }
-const alphanumericPattern = /[\w\d]/
+const alphanumericPattern = /[\w\d']/
 function isAlphanumeric(str) {
   return str && str.match(alphanumericPattern)
 }
@@ -19,12 +19,11 @@ function isOtherCharacter(str) {
   return str && !isWhitespace(str) && !isAlphanumeric(str)
 }
 
-
 function* tokenise(input) {
   const stream = pop(input)
 
+  let c = stream.next()
   while (stream.hasNext()) {
-    let c = stream.next()
     while (isWhitespace(c))
       c = stream.next()
 
