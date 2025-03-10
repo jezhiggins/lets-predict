@@ -32,3 +32,9 @@ test('full stops are their own tokens', () => {
 
   expect_tokens(toks, 'custard', ',', 'apple', '.')
 })
+
+test('punctuation are their own tokens',() => {
+  const toks = tokenise(',.;:')
+
+  expect_tokens(toks, ',', '.', ';', ':')
+})

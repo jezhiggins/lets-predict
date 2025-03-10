@@ -1,31 +1,46 @@
 
-function* split_on(input, on = ' ') {
-  yield* input.split(on)
+function pop(input) {
+  let index = 0;
+  return {
+    next: () => index !== input.length ? input[index++] : null,
+    hasNext: () => index !== input.length
+  }
 }
 
-function* reinsert(tokens, what) {
-  for (const token of tokens)
-    yield (token !== '') ? token : what
+const whitespacePattern = /\s/
+function isWhitespace(str) {
+  return str && str.match(whitespacePattern)
+}
+const alphanumericPattern = /[\w\d]/
+function isAlphanumeric(str) {
+  return str && str.match(alphanumericPattern)
+}
+function isOtherCharacter(str) {
+  return str && !isWhitespace(str) && !isAlphanumeric(str)
 }
 
-function* strip_blanks(tokens) {
-  for (const token of tokens)
-    if (token !== '')
-      yield token
-}
 
 function* tokenise(input) {
-  yield* splitFullStop(splitComma(strip_blanks(split_on(input))))
-}
+  const stream = pop(input)
 
-function* splitComma(tokens) {
-  for (const token of tokens)
-    yield* reinsert(split_on(token, ','), ',')
-}
+  while (stream.hasNext()) {
+    let c = stream.next()
+    while (isWhitespace(c))
+      c = stream.next()
 
-function* splitFullStop(tokens) {
-  for (const token of tokens)
-    yield* reinsert(split_on(token, '.'), '.')
+    let token = ""
+    while (isAlphanumeric(c)) {
+      token += c
+      c = stream.next()
+    }
+    if (token)
+      yield token
+
+    while (isOtherCharacter(c)) {
+      yield c
+      c = stream.next()
+    }
+  }
 }
 
 export {tokenise}
