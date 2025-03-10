@@ -8,18 +8,20 @@ function isPunctuation(w) {
 function isTerminal(w) {
   return w.match(/[\.!?]/)
 }
+
 function generate(chain) {
   let all = ""
   let word = chain.predict(StartOfLine)
-  for (let i = 0; i !== 50; ++i) {
-    if (!isPunctuation(word)) all += " "
-    all += word
-    if (isTerminal(word) && Math.random() < 0.75)
-      break;
-    word = chain.predict(word)
-    if (word === StartOfLine)
+
+  do {
+    while (word !== StartOfLine) {
+      if (!isPunctuation(word)) all += " "
+      all += word
       word = chain.predict(word)
-  }
+    }
+    word = chain.predict(word)
+  } while (Math.random() < 0.6)
+
 
   console.log("=============")
   console.log(all)
