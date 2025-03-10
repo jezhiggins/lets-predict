@@ -11,7 +11,7 @@ class Chain {
 
   predict(token, weight = Math.random()) {
     const followers = this.#tokens.get(token)
-    return followers.select(weight)
+    return followers ? followers.select(weight) : '.'
   }
 
   get size() {
