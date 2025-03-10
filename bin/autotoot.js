@@ -10,40 +10,42 @@ function isTerminal(w) {
 }
 function generate(chain) {
   let all = ""
-  let word = "First"
+  let word = chain.predict(StartOfLine)
   for (let i = 0; i !== 50; ++i) {
     if (!isPunctuation(word)) all += " "
     all += word
     if (isTerminal(word))
       break;
-    word = sherlock.predict(word)
+    word = chain.predict(word)
   }
 
   console.log("=============")
   console.log(all)
 }
 
+const StartOfLine = Symbol('StartOfLine')
+
 async function* wordPairs(filename) {
   const file = await open(filename);
 
-  let prev = null
   for await (const line of file.readLines()) {
+    let prev = StartOfLine
     const tokens = tokenise(line)
     for (const token of tokens) {
       yield [prev, token]
-      prev = token
+      prev = !isTerminal(token) ? token : StartOfLine
     }
   }
 }
 
-const sherlock = make_chain()
+const toots = make_chain()
 
 for await (const [word, follower] of wordPairs('./data/toots.txt'))
-  sherlock.add(word, follower)
+  toots.add(word, follower)
 
 console.log("I've read all your mastodon");
 console.log()
 
 for (let i = 0; i !== 10; ++i)
-  generate(sherlock)
+  generate(toots)
 
