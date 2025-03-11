@@ -16,6 +16,8 @@ async function* wordPairs(filename) {
   const file = await open(filename);
 
   for await (const line of file.readLines()) {
+    if (line.length === 0)
+      continue;
     let prev = StartOfLine;
     const tokens = tokenise(line);
     for (const token of tokens) {
@@ -26,6 +28,8 @@ async function* wordPairs(filename) {
         prev = StartOfLine;
       } else prev = token;
     }
+    if (prev !== StartOfLine)
+      yield [prev, EndOfLine];
   }
 }
 
