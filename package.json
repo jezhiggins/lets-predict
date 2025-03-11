@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "array-keyed-map": "^2.1.3"
   }
 }

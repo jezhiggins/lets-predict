@@ -15,6 +15,6 @@ function generate(chain) {
 console.log("I've read all your mastodon");
 console.log();
 
-const toots = await make_generator_from("./data/toots.txt");
+const toots = await make_generator_from("./data/toots.txt", 2);
 
 for (let i = 0; i !== 10; ++i) generate(toots);

@@ -1,7 +1,8 @@
 import { make_followers } from "./followers.mjs";
+import ArrayKeyedMap from 'array-keyed-map';
 
 class Chain {
-  #tokens = new Map();
+  #tokens = new ArrayKeyedMap();
 
   add(token, follower) {
     const followers = this.#tokens.get(token) ?? make_followers();
