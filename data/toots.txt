@@ -54,8 +54,8 @@ Harry only left school this summer and I have already completely lost track of t
 First tiny step building a line editor
 Typesetting with Brian Kernighan
 Five minute's worth of functionality
-Do you talk requests Robert? If live to see what takes you're along the bottom end of Drury Lane or around Bloomsbury Square.
-frankly I'm astonished you can make any sense of that typo ridden sentence!You have an eye, and I always enjoy your pictures.
+Do you talk requests Robert? I'd love to see what takes your eye along the bottom end of Drury Lane or around Bloomsbury Square.
+frankly I'm astonished you can make any sense of that typo ridden sentence! You have an eye, and I always enjoy your pictures.
 One of things I half had in mind with the Cycleatreets app was white labelling, although that's never really happened.That said, plugging in bus routing instead of/as well as cycle routing wod probably be straightforward. If Tfl are listening, that is 🙂
 Diagnosed a bug and made a one character fix. Fixed an entirely separate problem by updating an expired password. That is the sum total of my day's programming today. I've been programming for money for over 30 years. Some days one character is all you get 🙂
 You can pull URLs from packet capture, even for https because the initial connection is unencrypted. Many protocols start in clear text then negotiate encryption, so there's often the chance of a small leak. Even when connections are fully encrypted, you can still gather information about source and destination, can potentially infer what's going on.Hazy on details because it's some years since I worked on this kind of thing, but I've eyeballed a lot of pcap files.
@@ -87,7 +87,7 @@ As lowbrow as this little exchange was, it stands as a towering intellectual ach
 Everybody thinks their own life is unremarkable, but they're all wrong. Post what you like. I'm listening, and I'm far from the only one
 Yes, sure
 See you there chum. I sort of have mine written, but it needs a lot of rework. (Also they're putting me in the big room on the main track, which after nearly 20 years of track-4-small-rooms is, erm, alarming)
-Given what's been inflicted on you and your family, I think your affirmation today should be, and I'm not being the remotest bit frivolous,*** I am not a selfish fucking arsehole ***
+Given what's been inflicted on you and your family, I think your affirmation today should be, and I'm not being the remotest bit frivolous, I am not a selfish fucking arsehole
 If you didn't know I wasn't a licenced therapist, you'd have guessed, right?
 Sounds sensible to me.
 I'm serving a static file and it works just fine. Go ahead.
@@ -95,7 +95,7 @@ I just delivered two Amazon parcels I found in the road. Anyone know how much sh
 Absolutely nowhere near as much as I'd like. I'm trying to change that but pushing against, erm, "organisational issues".
 I'd definitely be keen to read it, although I honestly don't know how much I'd have to contribute.
 Hopefully we'll find out!
-I'll be honest, when I first saw "... has reported Floppy" I did have a moment of panic.
+I'll be honest, when I first saw " has reported Floppy" I did have a moment of panic.
 This is a big question and hugely context dependent, but broadly - try to understand the reason for the change, make sure existing behaviour is known and, as far as possible, captured in test scaffold, broadly establish contact points in the code for the change.This could be as simple as reading the relevant existing code and take a few minutes, or (hopefully this isn't the case) not at all simple.
 It's a general problem that applies to all archives. I know The National Archive in the UK does a lot of work in this area, and I'm sure its sister AMIs around the world are too.
 Oof
@@ -135,11 +135,10 @@ What I need to know is that I'll need to update or, hopefully, retire my little 
 async is where the magic happens 😉
 Can we have a temperature check, please?
 I imagine it's a vast web of well-actuallies and no-true-progressive-ism. What's weird is that the Tories are just as prone to this kind of infighting, but it's often projected as a strength. _We_ are a broad church, but _they_ are riven by factionalism.  Strong and stable versus chaos and disorder. I don't understand why it works so consistently but it clearly does time and time again.
-I think you'll find we need a new economic hegemony. With that established,...
+I think you'll find we need a new economic hegemony. With that established,
 This is the Aardvark behaviour we love. I shall await the curated playlist of 57 more versions in due course.
 Don't feel obligated at all, but they were a lot of fun. For us, at least 😉
 Sometimes I don't believe you are a bot.
-<\([^ >]\+\)[ >].*<\/\1>
 I'm sorry.
 Style by Dan is definitely a thing. Such a splendid t-shirt collection.
 I got sent a corporate advent calendar in mid-November. Daniel ate it all in under 36 hours. That really happened, and yet that too feels like a dream 🙂
@@ -184,7 +183,7 @@ I think that was his Mum.
 Here you go
 Ah, it was Dolly Singh, formerly something or other at SpaceX
 Obviously Einstein's work has zero relevance to a company that launches rockets. None. Nada. Zip.
-Noice. Just reminded me that Harry's got a picture printed in a letter column in there somewhere. (The first faltering step along the road to an A* Art A level!)
+Noice. Just reminded me that Harry's got a picture printed in a letter column in there somewhere. (The first faltering step along the road to an A Art A level!)
 Sounds a bit rude.
 Hardly. You've been here years. You are, but all accepted definitions, a Brummie.
 Those definitions being a) lives in Birmingham b) knows where the boundary with the Black Country runs
@@ -267,7 +266,7 @@ Yea, I'm just on the Dads' WhatsApp group, doing some kisir chat.
 Trust me. You'll thank us.
 Also coughs loudly.
 (Seriously, if you have a Switch just hanging about the place, I have an envelope of money in my hand right at this very moment)
-I forget the name, but there's a similar looking thing in the West Midlands. Again, the list of judges and entrants is a veritable who's-that* of "the best the West Midlands has to offer".* And the odd oh-that-guy
+I forget the name, but there's a similar looking thing in the West Midlands. Again, the list of judges and entrants is a veritable who's-that of "the best the West Midlands has to offer". And the odd oh-that-guy
 I speak by the way as a BCS Silver Award winner for something or other. My little desktop application came second to Hawkeye, the ball tracking the use for cricket. The client and (I think) my manager went to the dinner. I didn't even get an email acknowledgement 🤔
 Subsequently, when bidding for a renewal, I was told to my face, that for the price of you I can get four guys in Slovakia. I don't know who, if anyone, did get hired, but there wasn't a second edition of that product. So yea, awards are absolutely great and totally legit.
 Yes, I get those too. Do you get the ones offering ad space in trade papers that you've never heard of, or to join the editorial board of a "high impact journal"?
@@ -305,7 +304,7 @@ I did none of the work, but I'll take the credit 🙂 What's it like in the wild
 It is falling, it just doesn't show up very well on the photo 🙂
 Nice van though.
 #UKSnow 3/10 and falling B13
- It's not as obvious as it should be....
+ It's not as obvious as it should be.
 
 I offered to do this at a local collage (for free) at a local college and was turned down.
 I made a similar offer to a small government department where my brother worked. Turned down because they "had an IT supplier". I made the offer because that supplier was clearly deficient.
@@ -337,7 +336,7 @@ It's all about context isn't it? If this is related to your FileTree pondering, 
 Distinct smell of Earl Grey tea at the top end of Cambridge Road. V on brand.#Moseley
 Either. Both.
 Foolscap? Where did you get them? 1947?
-It does look more like a game of luck rather than skill...
+It does look more like a game of luck rather than skill
 Undeniably true.
 🙁
 
@@ -365,7 +364,7 @@ If, like me, you're a long time but not overly serious gamer, there's lots to en
  Could be worse. At least I don't look like Dickie Davies.
  My hair looks more convincing in the mirror than it actually is in real life. Every time I see a picture I think "who's that baldy?" before realising it's me.
  Chris is never happy. He wants the moon on a stick.
-I did yes. It's been a difficult couple of weeks and I'm behind on everything, but answer is hopefully, but... Will explain in email
+I did yes. It's been a difficult couple of weeks and I'm behind on everything, but answer is hopefully, but Will explain in email
 
 Friends, your periodic reminder that Eddie Campbell is one of modern comics very finest cartoonists, and if you haven't read Alec or From Hell or Bacchus, then please believe me when I say you really should. You'll be enriched by it.
 Ahoy!
@@ -414,8 +413,8 @@ I should say here that I'm speaking for myself here. I don't represent CycleStre
 A journey I used to take all the time, is across Birmingham from my house to the headquarters of West Midlands Fire Service.It's only about 3 and half miles, so exactly the kind of short urban journey that should be cycleable. (And which many of our continental neighbours wouldn't even think of driving.)
 Here's the route Google Maps suggest I take.Looks pretty direct, right? What could be simpler?
 Here's an enormous, busy, high-speed roundabout it wants us to cycle across.
-Survived that? Then steel yourself for another...
-And another...
+Survived that? Then steel yourself for another
+And another
 For the majority of the journey, essentially once you turn out of the end of my road, Google Maps suggests you ride on an arterial road until you get to the ring road, and then negotiate three of the biggest, busiest, fastest roundabouts in the city to cycle around the ring road, presumably while you pray to whatever god you believe in to keep you from harm.
 If you try and ride this route, you are actively in harm's way. It's simply not safe. On the other hand, if you look at that and think "fuck it, I'll take the car", there are other, externalised, harms. This is a dangerous route.
 Twelve years and the best the combined resources of Google can do is put people in danger.
@@ -594,7 +593,7 @@ Definitely dodged a bullet here.
 Back on my slow stroll through rewriting Software Tools in Pascal in C++. This is a book I've read cover to cover I don't know how many times in the past thirty years, but I find new facets in each time, and particularly as I'm writing code along with it.
 We're all (and by all I mean Vim-speaking) familiar with the providing line numbers to a command  1,$s/x/y/.,.+10d that kind of thing. Strictly speaking those are line expressions, rather than line numbers, but that starts to feel like splitting hairs.But did you know, because I sure as hell didn't, know you can provide an arbitrary number of line expressions?
 When I read that in STinP, I thought it was just a little quirk of their implementation, and didn't really think anything about it. I wrote my command parser to eat as many expressions as you give it, then just hand out the last two.Because that makes sense right? Treating 1,2,4,8,16d as 8,16d just seems sensible.
-And then last night I read this ..."A line number expression can be arbitrarily complex, so long as it lies between 0 and $, inclusive. And there can be any number of expressions, so long as the last one or two are legal for the particular command. Thus \\function\\;\\\\finds the second previous function declaration and /begin/;//;//;//pprints from the third suceeding line containing begin to the fourth, inclusive."Whoa! What now?
+And then last night I read this "A line number expression can be arbitrarily complex, so long as it lies between 0 and $, inclusive. And there can be any number of expressions, so long as the last one or two are legal for the particular command. Thus \\function\\;\\\\finds the second previous function declaration and /begin/;//;//;//pprints from the third suceeding line containing begin to the fourth, inclusive."Whoa! What now?
 (Context: \\<pattern>\\ searches backwards, /<pattern>/ searches forward. \\\\ and // search backwards or forwards using the most recent pattern again. function and begin are Pascal keywords.)
 The key here is the difference between using , and ; as the separator between the line expressions. Using ; updates the current line number to the value of the expression. That's it!That's the key. Multiple line expressions aren't a quirk of Kernighan and Plauger's little line editor, it's a deliberate part of ed, and consequently ex, and vi, and vim, and presumably other editors too. Bananas.
 My editor doesn't yet support ; properly. You can pop one in as a separator, but I'm not doing anything special with it. K&P's editor operates as it parses each command. If they see a ; the just update the current line right there and then. That's a reasonable choice given their various constraints (writing didactic code in Pascal, in late 70s, for people who've never heard of Unix).
@@ -623,7 +622,7 @@ I'm sure there were times before, but the earliest I remember Foucault's Pendulu
 Same but the cars make whinier noises?
 This is such a ballache. It's depressing that nobody learned the obvious lessons from, for example, MFC which was absolutely shot through with this kind of nonsense.
  Andy Street's election literature in the West Midlands mayoral elections uses a green colour scheme, and has somehow only very rarely mentioned he's a Conservative
-So it started with "Your app currently targets API level 30 and must target at least API level 31" and now I'm on an upgrade spiral that might never end ...
+So it started with "Your app currently targets API level 30 and must target at least API level 31" and now I'm on an upgrade spiral that might never end
 Netball is top telly sport.
 At one of my formative jobs, I once spent over a week trying to get a clean build of our whole system. We didn't have any kind of CI (because almost none of us had ever heard of it, and even if they had it wasn't that kind of organisation), so I built each chunk by hand - build the HP-UX server, regenerate the Corba bindings, wizard up the skeleton for the Windows side of the Corba bindings, fix the bit that had changed, build the Windows component, move to the next one.
 By the time I'd got to the top, something at the bottom would have changed, and I'd have to start all over again. I did got there in the end, strode out into the corridor in triumph, then spent about the next hour swearing loudly about how we'd never actually ship anything if we didn't sort this shit out. (Shortly afterwards all our dev teams were rearranged to have vertical slices not horizontal, although I didn't connect that up to my losing my temper at the time.)
@@ -643,7 +642,7 @@ I'm not sure I know. When I'm working on, say, a presentation then yes, but othe
 If you haven't already, Reznor and Ross's TMNT soundtrack is basically the next volume of Ghosts
 I think so 🙂
 Curious it should burn down so soon after being sold, eh?
-I haven't, but I'm picturing the beard in motion...
+I haven't, but I'm picturing the beard in motion
 I've got mine sitting on a little platform I made, hooked over the edge of a velux window. I was trying to avoid Starlibk's crippling prices for a stick with a hole in 🙂
 I didn't have any trouble with payment. I think I did that all through the website, so maybe that's why.I did shell out for the ethernet adaptor, and switched to bypass more so I could use my existing AP. I wante getting great signal from the Starlink AP, but obviously ymmv. My house is basically a rectangle with three foot thick stone walls, and the Starlink wifi was a bit too weakass for it.
 A classic!
@@ -675,7 +674,7 @@ You did not, no.
 The recorded "We are now arriving in Swindon" announcement is far too jolly.
 Happily, we didn't stop there this trip 😉
 Well, this is pretty lovely. Thanks chum
-A number (I don't how many) of odd behaviours in a set of multithreaded COM objects and Windows services went away in course of, for example, switching from raw BSTR to bstrt_t, using scoped locking objects rather than raw Windows API calls, vectors in place of raw arrays,...I'm sure there were others, but that was the most dramatic. There was nothing obviously wrong with the code, but without intending to "fix" anything, I definitely did.
+A number (I don't how many) of odd behaviours in a set of multithreaded COM objects and Windows services went away in course of, for example, switching from raw BSTR to bstrt_t, using scoped locking objects rather than raw Windows API calls, vectors in place of raw arrays,I'm sure there were others, but that was the most dramatic. There was nothing obviously wrong with the code, but without intending to "fix" anything, I definitely did.
 It was a perky lady-voice, so an entirely different type of jolly, although equally inappropriate.
 Chig-chug-chugging to Haverfordwest. This train is a _considerable_ step down from the fancy Class 800 that got me to Abertawe 🙂
 Oooooh, I'd forgotten we do the train-goes-back-out-the-way we came in at Carmarthen. Always a bit weird when that happens.
@@ -696,7 +695,7 @@ Refreshing my memory on C++ Aggregate Initialisation, like you do.
 I want to only initialise a bit of the object with a non-default value, but don't want to write a constructor (because the constructor you don't write is the constructor you don't get wrong).
 I know it gets a fairly regular shoeing, but let's take a moment to appreciate `std::function`
 I'd prefer two, but if it's more natural in one episode it won't be the worst thing in the world.
-I mean, you can see the logic...
+I mean, you can see the logic
 Classic "enormous bucket of dice" sound 👍
 Bunch of cnuts
 Fans are slans, but only in their own imaginations.
@@ -713,7 +712,7 @@ Unless this movie is "Who Kills Jessica Fletcher?" and the combined talents of S
 2-in-1? Lifts and separates?
  Hockey shorts have pockets. You know, for your fags and matches in case you want a gasper during the game.
 The floggings will continue until the horse revivifies.
-"OK, well, in 1938 Jerry Siegel and Joe Shuster created the first superhero comics..."
+"OK, well, in 1938 Jerry Siegel and Joe Shuster created the first superhero comics"
 We can not do any work outside without being followed around by this guy the whole time.
 There's a whole cycling culture around this kind of splendid behaviour, but you are the first runner I've ever seen who was a fellow traveller
 True, but a silly mistake just got England a try!
@@ -775,7 +774,7 @@ Not at all. I'd take a stab at outfielders, but no idea about flyball
 An actor who plays a TV detective, yep. Little scene where his agent is demanding more money or he walks and shuts down the number 1 show. Cameo from Walter Koenig. It's all a bit meta.
 Thoughts and prayers.
 Just written an underpants gnome todo list.  Maybe I should stop for lunch and look again when I get back.
-Ah you young people.It's from a South Park episode, in which some gnomes are stealing underpants as part of their plan to get rich, but the plan is1. Steal underpants2. ....3. Profit
+Ah you young people.It's from a South Park episode, in which some gnomes are stealing underpants as part of their plan to get rich, but the plan is1. Steal underpants2. .3. Profit
 Yr olygfa o Hescwm Uchaf, rhif 3 : Typesetting With Brian W Kernighan
 Songs That Stop on the Word "STOP" Supercut (DELUXE)
 Cricket World Cup starts tomorrow lads.
@@ -798,7 +797,7 @@ When you said outside-in my first thought was "on the deck, but turned around to
  These are v good
 A lot of that reads like an advert, except for_The firm’s turnover for 2022 stood at less than £1 million, while it made a loss of more than £30 million._But how? What are they spending all that money on. Because the whole "coordinate system no one wants" is done, right? It's just sitting in a big ole csv or whatever they're using with a little API on the front. Where's the remaining £29999950 going?
 just get jabbed in the other arm for double ouchies
-I'm just putting right a thrillpower deficit, and *He Fought Two Wars -- One Against The Demons Of Hell, The Other Against His Nazi Bosses!* may be one of the greatest tag lines ever written and I demand more.
+I'm just putting right a thrillpower deficit, and He Fought Two Wars -- One Against The Demons Of Hell, The Other Against His Nazi Bosses! may be one of the greatest tag lines ever written and I demand more.
 Friday night, I foolishly decided to get myself a copy of the December 2023 issue of Edge magazine. I pop over to Future Publishing's website, hand over my card details and don't get a download link.I get a receipt email and then, 26 minutes later, an email saying "you left a magazine in your basket, check out now". I clicked the link, but my basket was empty & my card didn't appear to have been charged. Ah well.
 Saturday night, I tried again, this time using PayPal. Again a receipt, again a follow up 26 minutes later saying "don't forget to checkout". This time I had been charged. Still now download.
 Shortly after that, my card was charged from the day before. Still no magazine.
@@ -825,7 +824,7 @@ Something from the vaults 😮Warhammer 40,000: Rogue Trader
 In the grimdark _past_, there is only war
 Enjoy!
 Booked the afternoon off for a thing that's had to be rescheduled at short notice.Go back to work, or take it off anyway and just doss about the place?
-I've just remembered I have a question! "... my heaps sit on rat-proof mesh..."In the past I've had the odd rat living in my urban compost, and now I'm fully rural encountered the odd mouse or vole, but I've never considered them a problem. You imply quite strongly that they are. But why?
+I've just remembered I have a question! " my heaps sit on rat-proof mesh"In the past I've had the odd rat living in my urban compost, and now I'm fully rural encountered the odd mouse or vole, but I've never considered them a problem. You imply quite strongly that they are. But why?
 Renounce Sam.RENOUNCE!
 You think you've got problems? Look what I just got
 Knuckleduster collection - model's own
@@ -834,7 +833,7 @@ Well, shit #rwc2023
 "Pass the soap, Maro"
 "Oh, was that your leg?"
 "Scrub my back, would you?"
-"I didn't know this was a jacuzzi. Oh wait, Maro did you just...?"
+"I didn't know this was a jacuzzi. Oh wait, Maro did you just?"
 Slowly, and then all at once
  If my brief time in the Norfolk chicken processing sheds taught me anything, it's any meat product that's not anatomically identifiable is probably made from the bits you'd leave on the side of your plate.Avoiding meat entirely isn't a bad plan, but if that's a stretch then at least stick to the thing that look like an animal.
 Are you sure it was the chilli sauce?
@@ -856,7 +855,7 @@ But that's nowhere near Edinburgh!
 Mine is outside outside. There were several more, but we've eaten them.
 What's the sticker on his MacBook?
 "I've got some really great ideas, you guys just need to do the words and music!"
-Here's a nice one for you  I used to live at 34 Forest Road in Birmingham. I now live by the seaside 😀 and my address is just the house name and the village. Obviously, 02 thinks my new address should, therefore, be ...
+Here's a nice one for you  I used to live at 34 Forest Road in Birmingham. I now live by the seaside 😀 and my address is just the house name and the village. Obviously, 02 thinks my new address should, therefore, be
 That bit is actually correct - it's a different Newport.
 Although it is also a long way from Newport
 Just rescued a sheep
@@ -872,10 +871,10 @@ For a stupid moment, I thought she'd climbed into the dishwasher, but a double-t
  Yea me too. All the time.
 Cheeky!
 my money would be on Jobhopper Grant Shapps.This Conservative government is so intellectually impoverished he's pretty much the only choice who isn't an absolute headbanger.
-Place your bets...
+Place your bets
 That's who my money's on. I mean I'm not thrilled about any of them, but at least he's not a complete headbanger.
 Sunak replacing the failures of the present with the failures of the past. There's nobody in the government who could find their arse with both hands and a diagram. Jfc
-Absolutely not as reassuring as he thinks...
+Absolutely not as reassuring as he thinks
 Did you have this on your War Christmas bingo card?
 You can leave out "for a desktop look and feel". Jiggling the Material theme _at all_ is hard work
 As and when is fine with me. I find all at once releases kind of stressful (and it must be even more stressful to make!)
@@ -927,7 +926,7 @@ Despite my clod hopping foot position, and that it looks like I'm chopping this 
 I was unaware I gurned my way through games, but I checked with my kids and face-pulling confirmed.
 It's a buff. Just a brisk walk breaks me out in a sweat, so without it I'd spend the whole game wiping my eyes
 Thank you 🙂
-We've been chasing something that wasn't delivered because "the address was incomplete", even though a) the address was complete, and b) they delivered here the week before. But I hadn't thought of that - there's probably some poor sod who's still got a half a van full on Friday afternoon thinking "it's a long way back to Swansea from here..."
+We've been chasing something that wasn't delivered because "the address was incomplete", even though a) the address was complete, and b) they delivered here the week before. But I hadn't thought of that - there's probably some poor sod who's still got a half a van full on Friday afternoon thinking "it's a long way back to Swansea from here"
 I miss the Cricket World Cup already #cwc2023 #CWC23
 I'm going to do it - is it Parcel Force?
 it's no comfort, but you are not alone 🙁
@@ -960,7 +959,7 @@ I was 49 years old when my letter to Tharg was Letter of the Week in Prog 2114 a
 I put it in the Publications section of my CV and nobody has ever asked me about it 😢
 She did! 💕
 "Real Programmer" - I bet he pronounces those capital letters.
-We'd probably all have a bit of chip on our shoulder if our first job was working on Notes 🙂 Found his profile - it's not at all what I expected. I've most often encountered this kind of "kid's today" nonsense from systems or embedded programmers.Whatever, he sounds like a joy to work with ...
+We'd probably all have a bit of chip on our shoulder if our first job was working on Notes 🙂 Found his profile - it's not at all what I expected. I've most often encountered this kind of "kid's today" nonsense from systems or embedded programmers.Whatever, he sounds like a joy to work with
 Oh I know they do!
 Maybe they're running in debug mode and the maker app, not the actual app
 BBC News - Nasa delivers 'teaspoonful of asteroid' Bennu to UK love to go back and do a bit of space science again. Open University, hit me up!
@@ -1007,7 +1006,7 @@ But what's the very next line? command(in, out, buffer_, filename_);command and 
 I'd been intending to do a one line change - the _obvious_ change, 2 minute job, just to smooth things out, make it easier to read - but until you get the code in your hands, you never really know what it's going to tell or what you're going to do with it.
 Thirty years, I've been doing this, (forty if you're feeling generous) and the code can still surprise me.
 This bird now routinely joins our builders on their lunch break.
-I feel you. There was a road closure on my doorstep, and it took me about ten minutes to parse out "extending from 200m south of the junction of the A487 with the road linking the Ariu with Cae Tabor upto a point..."Turns out it's quite difficult to describe a road closure when some of the roads involved don't have names, some do but nobody calls them that, and you pointedly ignore well-known local landmarks 🤷🏽‍♂️
+I feel you. There was a road closure on my doorstep, and it took me about ten minutes to parse out "extending from 200m south of the junction of the A487 with the road linking the Ariu with Cae Tabor upto a point"Turns out it's quite difficult to describe a road closure when some of the roads involved don't have names, some do but nobody calls them that, and you pointedly ignore well-known local landmarks 🤷🏽‍♂️
 Mushroom risotto 😢
 Arf!
 Days since I typed a command into a chat window instead of a terminal : 0
@@ -1019,7 +1018,7 @@ Told you. Good luck out there.
 
 There is a lot of software development in and around Birmingham, but in the 30 years I lived in the area I didn't get a huge amount of local work and I don't really know why. Maybe it's the wrong sort of software, or more precisely the wrong sort of company for what we, respectively, sell?(Obviously more I live in Pembrokeshire, I expect to get even less local work 😉)
 If you're interested I can give you some examples off the top of my head, but in the morning 😉
-And eats out of their hands...
+And eats out of their hands
 Hmm. From your videos I would have said you do, pretty much, but maybe I need to watch some of those again.For me, my immediate feeling is that I don't make a list - I have an idea, usually, but it's not formalised as a list. That means when I get to Kent's 5th step I'm much more in a "where does this take me" more than "what's still on the list". But I guess I need to look at myself again too.
 This is the greatest fart joke ever told
 Still on the way or going back already?
@@ -1065,7 +1064,7 @@ You know that thing about men thinking about the Romans Empire so many times a d
 Erm, ackshually it's tomorrow
 Yes, but the solstice is late this year. Hold your excitement until tomorrow
 When is anything?
-I know you love her, Brian, but come on... 🙄
+I know you love her, Brian, but come on 🙄
 Warren Zevon, I'll Sleep When I'm DeadMaybe. He definitely was a man who stayed up all night probably more than was really healthy.
 Took early Christmas food damage going in a bit hard on the refried beans this afternoon.
 Yes, refried beans are absolutely a traditional Christmas food. At least in our house.
@@ -1094,7 +1093,7 @@ Best get the tea started.
 ☝️
 You can hear it from there? Blimey!
 Just murked the kids at Carcassonne, lads
-There are worse suggestions. I mean I can't think of any, but I'm trying to be positive...
+There are worse suggestions. I mean I can't think of any, but I'm trying to be positive
 We're playing about half a dozen expansions, including Abbey and Mayor (which is about 4 different expansions by itself) - a winning score yesterday was knocking on 400 points - so you've got to do both.
 And I'm all caught up! Happy New Year, my friend!
 My boy  has a full Naomi Klein/Naomi Wolf thing going on with Sis Spurrier and Spencer, even though neither of them has turned evil.
@@ -1224,7 +1223,7 @@ I took the long way round but have arrived in this code where I thought I was go
 
 Too muddy? In West Wales? How do they get any work done at all?
  I don't want to rub it in but Natalie's just reminded me that when we had some lino put down, our yard was flooded. Fitter had leave his van in the lane, wade through knee deep water, let himself on because we weren't there, and afterwards reverse two hundred yards back up the lane.
-OH: I knew you were going to the Villa, and Lucas was going to Auschwitz...
+OH: I knew you were going to the Villa, and Lucas was going to Auschwitz
 That's a lot of pitching, especially on your birthday 😮
 I'm not getting into Norwich until close on 10, but yes I'll see you at Olives in the morning
  This is what I increasingly believe. There are no normals, we're all on a multidimensional manifold, and we're all moving, on both short and long timescales.
@@ -1255,7 +1254,7 @@ Shipped a nasty bug because I wrote a function that took three boolean parameter
 My names aren't good either. The whole thing depends on a load of external state - schedule, time, whether services are running, etc - and I've sort of conflated the desired state with any action that needs taking
 Balls
 Could have killed a bit more, tbh
-Over the past four or five months, I've been pulled into the recruiting process at work. I say pulled in because I didn't have any prior experience or training in recruiting, and because I'm not sure our process is particularly great. I don't think it's bad, necessarily, but it is quite drawn out. At least, I think so although people tell me it's not unusual. Anyway...
+Over the past four or five months, I've been pulled into the recruiting process at work. I say pulled in because I didn't have any prior experience or training in recruiting, and because I'm not sure our process is particularly great. I don't think it's bad, necessarily, but it is quite drawn out. At least, I think so although people tell me it's not unusual. Anyway
 As part of the process, we give people a "refactoring exercise". It's a small chunk of not very good real code, and ask people to make it better. We're deliberately a bit vague about what that might be, because we don't want to steer people in any particular direction. We have a good read through, and then we have a call to talk about what they've done, how they found it, what they were thinking about and aiming for, do a bit of pairing on the code, explore the paths untaken.
 It's in this conversation where I generally get involved and, actually, it can be a lot of fun. People take it all kinds of ways, and have lots of different ideas, and I've had some really good conversations with people.
 When it's not fun, though, it can be really quite depressing. People who look like they should be good candidates - six or seven or eight years in, working in the same sector, for well known companies, who are bright and pleasant - turn out to be pretty poor programmers.
@@ -1275,11 +1274,11 @@ Unthinking choice of words :) Don't want you thinking I've got some kind of prog
 Yea loads, although not on this job. We use D ;)
 We moved from Birmingham out to the Pembrokeshire coast last summer, have builders in renovating the house who'll probably be here for the next year, found a new hockey club, sometimes see dolphins when I'm walking the dogs. I'm doing good :) How are things with you?
 Well done, everyone
-Looking forward to 2032...
+Looking forward to 2032
 When my Mum was in the army, back in 60s, I believe she did a stint test firing Bloodhound missiles into the sea off Saundersfoot. Except they mainly didn't because the missiles were very expensive, so they just pretended to fire missiles into the sea.Spike Milligan described his wartime training to use field artillery as something like pulling the string and shouting bang.Plus ca change, and all that
 They do look nice, but it'll have to be pretty special to be better than one of these
 XP changed our lives right? But we've done a pretty poor job of passing that on to the generations that have followed us, at least that's how it's feeling to me at the moment.
-Forgive me -You step through the door into the next chamber. As you look around an ogre crashes through the wall. What do you do?I, er,...It doesn't matter. The ogre rolls right over you, crushing you to pulp under its tracks.
+Forgive me -You step through the door into the next chamber. As you look around an ogre crashes through the wall. What do you do?I, er,It doesn't matter. The ogre rolls right over you, crushing you to pulp under its tracks.
 For the past 20 years I've been recording the first ice cream van of the year. For a longitudinal study like this I'm still in the early stages of the data gathering, but the initial results are promising. However, while I previously lived in Birmingham, I now live in Pembrokeshire. By the seaside.You can see why this might be a problem. Consequently, I'm looking for Birmingham-based people to become field agents. The duties are quite light but, I hope, rewarding.
 Projections for this year suggest a first Ice cream van sighting on or around the afternoon of 15th March, with an envelope of +6/-5 days.However, early outliers are possible, so if you are interested please get in contact at your earliest convenience.
 While distant jingles help fill the picture, the rigours of science requires a sighting  please - ideally van name, location, time, and jingle. Any incidental details - was there a queue, anything novel on the menu, nice and clean or a bit scummy looking etc - are at the observers discretion.
@@ -1343,7 +1342,7 @@ I listened to the thrill cast where you were all being coy and I didn't catch on
 Feel free to send that on for Molch-R to use as a cover quote on the collected edition, btw
 I've been vegan for years, but no one ever told me it was a get out of jail free card. If I'd known I'd totally have been doing crimez
 _of course_ you wrote the tanks
-Don't misunderstand - it's terrific stuff, really good, *really* good(and you have provoked Henry to a whole new plane, if such a thing was even possible), but also you fuckers
+Don't misunderstand - it's terrific stuff, really good, really good(and you have provoked Henry to a whole new plane, if such a thing was even possible), but also you fuckers
 Pretty good for someone who's been dead over 400 years
  It'll only encourage them
 Just swallowed a fly, lads
@@ -1351,11 +1350,11 @@ Bastard! Can't stop thinking about this.
 I buy the logic but not when applied to Rees-Mogg. He's shown no hint of any kind of compassion or intelligence in the past, and GB News sure as hell aren't forking over 350,000 a year for him to talk sense. My bet was he's trying to put the boot to Sajid Javid because Javid came straight out to condemn Lee fucking Anderson
 Let's predict!
  What have we done to you Mick? You used to be such a nice young man 😀
-_Mrs. Gardiner meanwhile having such treatment; but their notice. It is a militia regiment since he is to every day. She immediately followed. He had the dance and if not quite shocking it almost all in allusion to Lady Catherine's drawing-rooms, and kindness to his father, particularly, all blame, that ..._I forced an AI to read Pride and Prejudice, etc, etcEven with the most basic string.split(" ") tokenisation, that's really quite a pleasing result.
-_Holmes grimly.  was engaging a Britisher with as he had struck the air, and then, several missions of a note of Baron ..._Note doing so well with the Sherlock Holmes, though
+_Mrs. Gardiner meanwhile having such treatment; but their notice. It is a militia regiment since he is to every day. She immediately followed. He had the dance and if not quite shocking it almost all in allusion to Lady Catherine's drawing-rooms, and kindness to his father, particularly, all blame, that _I forced an AI to read Pride and Prejudice, etc, etcEven with the most basic string.split(" ") tokenisation, that's really quite a pleasing result.
+_Holmes grimly.  was engaging a Britisher with as he had struck the air, and then, several missions of a note of Baron _Note doing so well with the Sherlock Holmes, though
 _Holmes [said she] to Farnham. The Colonel has been a fellow-countryman. "How many half-crowns?"_ is kind of ok though.
 It's late to starting on messing around with tokenisation this evening, and I's a tired boy
-That's what happens when you don't follow the detailed step-by*step instructions...
+That's what happens when you don't follow the detailed step-bystep instructions
 Dydd Gŵyl Dewi Hapus
 You young'uns! I was taught Welsh at primary school in Cardiff, in 77 or 78, but I don't think that was common at the time.
 I'm 54 and three-quarters :)
@@ -1363,29 +1362,28 @@ I'm not exactly bright eyed and bushy-tailed, but it's only half past eight and 
 Last night, my little scrap of JavaScript was producing not very good Holmesian text Watson here reveals the Scotland Yard Museum, and shook his friends must escort to tuft of darkness?        given the door softly  faces, while I knew nothing which leads into the cat. But remember,' he     his wine-glass.                my rooms.  but it strange it that he said. "Go and quiet one, though she, "if we shall put on Monday night, and of all, and then the point. I had an appointment at once."
 Going to try and make that better.Nina and chums lost by a point 😞
 As I read the source text to build my markov chain model, I am tokenising in the simplest way that could possibly work function tokenise(input) {  return input.split(' ')}It's don't get no simpler than that. Trouble is, if we get a blank line - which is of no use - this will still squirt out an empty string, which the chain will tuck away. If there are extra spaces they won't get stripped. Punctuation will pass write through to so "hello", "hello," and "hello!" all end up in the model.
-function tokenise(input) {  return input.split(' ')}This returns an array, but I'm going to flip this to a generator, because it'll be easier to muck around with later.function* tokenise(input) {  yield* input.split(' ')}Boom!Now, instead of returning an array, we're returning an iterator over that array. Slightly astonishingly, at our call sitefor (const token of tokenise(line)) { ... }nothing has to change.
+function tokenise(input) {  return input.split(' ')}This returns an array, but I'm going to flip this to a generator, because it'll be easier to muck around with later.function tokenise(input) {  yield* input.split(' ')}Boom!Now, instead of returning an array, we're returning an iterator over that array. Slightly astonishingly, at our call sitefor (const token of tokenise(line)) {  }nothing has to change.
 JavaScript generator functions are great and everybody should be using them a whole lot more than they are. About 8 years ago, I gave a talk in which I said they were the future and it looks like we're just starting to get there.
 Let's strip out those empty strings function* tokenise(input) {  for (const token of input.split(' '))    if (token !== '')      yield token}Watson had heard a fierce eddy between eight years of a straight from you. We know nothing which is the old gentleman's father. I for the wall was possible to get out if he was comfortable, and veil, all three long step and for a private business. We had no exit?" "None." Hmm, better already.
 Let's think about punctuation. Right now "hello", "hello!", etc etc are all different. We could just strip out all punctuation, but I think it'll be more fun to keep them in there are tokens in their own right. Can't think of a neat way to do that.
-The long way round then. I hate it,but it works. function* tokenise(input) {  for (const token of input.split(' '))    if (token !== '')      yield* splitComma(token)}function* splitComma(token) {  for (let t of token.split(',')) {    if (t === '')      t = ','    yield t  }}I'll fix it in post :D
-OK, this is getting uncomfortably Lispyfunction* tokenise(input) {  yield* splitFullStop(splitComma(strip_blanks(split_on(input))))}
+The long way round then. I hate it,but it works. function* tokenise(input) {  for (const token of input.split(' '))    if (token !== '')      yield* splitComma(token)}function* splitComma(token) {  for (let t of token.split(',')) {    if (t === '')      t = ','    yield t  }} I'll fix it in post :D
+OK, this is getting uncomfortably Lispy function* tokenise(input) {  yield* splitFullStop(splitComma(strip_blanks(split_on(input))))}
 Oh for a pipeline operator.
 Huh, just realised I've been using snake_case when idiomatic JavaScript uses camelCase. Stick it in the backlog, I'm out.
 "Watson, and that she came no immediate danger, and there was able to an old park, but after the yellow with the street."
-*shocked face*
+shocked face
 Yep, they do.
-
-I worked in Prof Colin Pillinger's lab from 91-94. I think everyone there thought there had been life on Mars (and remember at the time we thought Mars was dry) . Ironically, Everett Gibson's "Martian fossils" work made it much more difficult to say that in public. He was well liked and respected, but that result felt a bit unsupported, especially as everybody and his dog was analysising AH84001 six ways to Sunday.
-I think, /think/, we saw a dipper on the stretch below this. Small bird, flying straight and low among the river, no hint of colour so not a kingfisher and too small in any case.Wouldn't have thought of it, because in my head dippers are Scottish Highlands and islands, but met a guy a couple of weeks back who said they nested along here and to keep an eye out.
-On the episode of Monkey Cage, my old colleague Sara Russell describes the first time she held a meteorite in her hand, and I just had to sit down for a few minutes because it was the same for me. If you ever get the chance to handle a meteorite, to hold something that's older than this Earth, then do it.I mean it'll fuck you up, but do it
+I worked in Prof Colin Pillinger's lab from 91-94. I think everyone there thought there had been life on Mars (and remember at the time we thought Mars was dry) . Ironically, Everett Gibson's "Martian fossils" work made it much more difficult to say that in public. He was well liked and respected, but that result felt a bit unsupported, especially as everybody and his dog was analysing AH84001 six ways to Sunday.
+I think, think, we saw a dipper on the stretch below this. Small bird, flying straight and low among the river, no hint of colour so not a kingfisher and too small in any case.Wouldn't have thought of it, because in my head dippers are Scottish Highlands and islands, but met a guy a couple of weeks back who said they nested along here and to keep an eye out.
+On the episode of Monkey Cage, my old colleague Sara Russell describes the first time she held a meteorite in her hand, and I just had to sit down for a few minutes because it was the same for me. If you ever get the chance to handle a meteorite, to hold something that's older than this Earth, then do it. I mean it'll fuck you up, but do it
 Don't even get me started on Martian meteorites
 Have you got especially stinky rabbits round there, because I thought rabbit poos was generally pretty innocuous. It's right at the other end of the scale from cow or fox.
-  Can confirm. Source: am also old and used them
+Can confirm. Source: am also old and used them
 I once said I want my iterations to be about 8 minutes, and then I realised I wasn't joking. I do like to be about that sort of cadence. If I go longer than 20 minutes or so without a commit, I start getting uncomfortable. Probably means I've gone wrong
 Love to be offered "exciting contract opportunities" at the rate I was getting in2001.
 A few days ago I was moaning out loud about how disappointed I was for all the interview candidates we'd seen that had been ill-served by their previous employers (and more). I then happened on a piece of code I felt was indicative of something or other, pointed at it, and made all kinds of inferences about the organisations that enabled this poor bit of code to stand.
 This is what I was moaning about. But if I'm so clever, what would I do about it?
-The line components = re.findall(r"\\d+", reference_match)appears in every branch of the if/else. Let's start by hoisting that up.
+The line components = re.findall(r"\\d+", reference_match) appears in every branch of the if/else. Let's start by hoisting that up.
 The unnecessary brackets in the first else body just jars. It catches the eye, but it's just visual noise.
 The lines building corrected_reference aren't the same, but they are pretty similar, and we can safely combine them all together.
 This is a bit of a meta-change, because you can't infer it from the code here, but canonical_form is drawn from a data file elsewhere in the source tree, and we control it. Examining that, it is safe to replace d+ with d1, and thus eliminate one of the replace calls when constructing corrected_reference
@@ -1394,7 +1392,7 @@ Those string literals give me the heebee-geebies. Replace with constants.
 Group like types together in an array, test using in
 Do the same on the other two branches of the if/else. Hey look, we can go up a few points on the font size
 Oh yea, Python has tuples. Those groups can be tuples not arrays, so swap the [] for ()
-Collapse the year = ...d1 = ...d2 = ...lines into a single line. Easier on the eye.
+Collapse the year = d1 = d2 = lines into a single line. Easier on the eye.
 Pair up a type group with a little function to pull out the year, d1, d2 values. Probably a bit too much in one jump here. Ugly too. Works though, which is the main thing.
 Make a little class to pair up the types and components lambda. It more typing at the top, but it's neater in the function body.
 Do the same on the other two branches. The if conditions and the bodies all have the same shape. That's pretty cool. They were similar, now they're the same.
@@ -1408,7 +1406,7 @@ Yep, that's it, I think.
 Thanks chum
 This is contrived, obviously, because it's just a one function I've pulled out of larger code base. But, but, but, I do believe that now I've shoved it about that it's "better" code. If I was able to work to my way out from here, I'm confident I could make the whole thing "better". It'd be smaller, it would be easier to read, easier to change. (This isn't hypothetical - I found this code because I was talking about working on it. It's right up a number of my alleys, but sadly I couldn't)
 Big finish - I'm sure I have made the code better, and I'm just as sure that I'd make the people I was working with better programmers too. I'd be better from working with them - I've learned from everyone I've ever worked with - but I'm old. I've been a lot of places, done a lot of stuff, on a lot of different code bases, with busloads of people. I know what I'm doing, and I know I could have helped. I'm sorry I couldn't take the job but it needed more time that I had. Another time, perhaps.
-That all sounded rather like an advert. It isn't, at least it's not an overt one. But one day, you might need a programmer with miles on the clock, ...
+That all sounded rather like an advert. It isn't, at least it's not an overt one. But one day, you might need a programmer with miles on the clock.
 Orion's belt.And below it, Orion's trousers
 Yes, that's absolutely fair. If this had been C#, which is what I'm using day to day atm, I'd probably have gone straight to a LINQ expression. There is a better way to do this in Python, but it wouldn't come, I'd moved the code quite a long way, and it seemed a reasonable place to stop. At least for now 🙂
 Python's list comprehensions are its Linq-a-like, and I had half an idea I could use one here. However, I thought list comprehensions only created new lists. I'd still have to extract the next element, and that felt clumsy.Turns out I'd only ever half used them. A list comprehension returns an iterable. next() pulls the next element off the iterable, and well, it's more pythonic.How does this look?
@@ -1451,7 +1449,7 @@ It is! 🙂
 I'm looking forward to it 👍
  Also that he's missed that Paul is one of the councillors backing the hidden agenda.Not quite sure what the hidden agenda is though.Perhaps that's why it's hidden
 Obsidian is a volcanic glass, so the obvious question is "is it glassy?"
-Oh yea, that'll do it 🙂I'm thrown into doubt though. Don't think Ynys Mon is volcanic.
+Oh yea, that'll do it 🙂 I'm thrown into doubt though. Don't think Ynys Mon is volcanic.
 I've done more XSLT work than most people would think reasonable. Right now, I regularly use a pure(-ish) functional language, although it's internal to the place I work so not much of a data point
 My local Lidl hasn't had its Marmite-a-like in stock for weeks, so had to buy actual Marmite. Just opened it up and there something different about it - very sticky and hard to spread, colour isn't quite as black as usual.Are we going through some kind of national yeast crisis?
 Once again let us celebrate what an achievement Steve Borthwick's nose is.
@@ -1462,7 +1460,7 @@ Sharpened my axes, lads
 Legend. Solid work.
 Ok, let's see if I can remember how to do a release for the CycleStreets Android App.
 Haha! I don't have to because it's all written down
-... waits anxiously ...
+ waits anxiously
 I don't know why I'm anxious. It's going to build and deploy file.
 Because this is an Android code base with a bit of history, naturally the build log is full of deprecation warnings.
 The warnings are primarily "such-and-such method in AsyncTask has been deprecated", topped of with actually, you know what, "AsyncTask in android.os has been deprecated".I have, at various times, tried to track down what I should be replacing AsyncTask with and have got as far as "Kotlin coroutines". Which is fine, I guess, although a task is a task and a coroutine is a coroutine and those are not the same.
@@ -1471,7 +1469,7 @@ We are green!
 Oh god, now I've got remember how to promote a build in the Google Play Console.
 Bugger. Guess who didn't quite follow the simple release process last time?
 Release 3.11 Cyclestreets for Workgroups.
-... additional anxious waiting ...
+ additional anxious waiting
 Ok, let's try again.
 Ah yes, the changes have to be "approved", then I can promote it too production. Job for the morning then.
 In the Spring a young owl's fancy lightly turns to thoughts of hooting and screeching up a right cacophony
@@ -1484,22 +1482,22 @@ Whatever the reason it's a remarkable lapse for an organisation almost entirely 
 Democracising the Monarchy? I am here for it
 Walking the dogs on a footpath along a farm drive when a tractor came up beyond me. Stepped off the track to stand on a piece of grass next to a big "Keep off the grass" sign. 👍
 This is evening I am doing the "update the build configuration for an Android app" dance.Well, I say dance. It's more like being ordered around by a gym instructor who isn't listening, wouldn't take no for an answer even if they were, you might get injured, and you won't feel better at the end of the process in any case.
-God, or whatever, be praised - it's a deprecation warning that _actually give you the path out_
+God, or whatever, be praised - it's a deprecation warning that actually give you the path out
 Let's see if it works!
 Well, it changed a couple of things that look like they make sense. Everything builds ok, the warning's gone away. Great. (I do not know what the setting actually does.)
 Ah, I think I have found out what it does.
 It controls generating a build info class. Previously it created one for each module (because yes, multi-module gradle build), but the change meant it was only doing it at the top level. Moved the setting into the one module where we need it, and we're good again. Score draw on that one.
 Every week I wonder about how a big a pot of lovely tarka daal you make. Can we get a pic of this giant delight?
 At least you'd know where they're not.
-I'm on the bus and thought the woman in front of me is reading a book on what I thought was.an absurdly large phone. Realised she just has small hands and is using a font that's about a quarter of the size I can comfortably read.
+I'm on the bus and thought the woman in front of me is reading a book on what I thought was an absurdly large phone. Realised she just has small hands and is using a font that's about a quarter of the size I can comfortably read.
 Yes please!
-They might have been lumpy, although I suspect you have an overcritical eye for your own work, but they were exciting as hell. When a new Llamasoft game came out there was a real "what the hell is he going to do this time?" anticipation.I wouldn't have been able to express it back then, but it was clear your games were an expression of yourself, that you're an artist and the games are your art.
+They might have been lumpy, although I suspect you have an overcritical eye for your own work, but they were exciting as hell. When a new Llamasoft game came out there was a real "what the hell is he going to do this time?" anticipation. I wouldn't have been able to express it back then, but it was clear your games were an expression of yourself, that you're an artist and the games are your art.
 Thoughts and prayers Sam
 Just remembered that time I sold an Afghan style rug on eBay and it got bought by a soldier on active duty in Afghanistan
 Might have cooked too many beans lads
 Incredible
-My friend Gail is on the most recent episode of  and it's a really good interesting episode (and I don't say that just because she mentioned me and a load of our other friends).
-(Although I was inexplicably delighted that her description of me made  laugh.)
+My friend Gail is on the most recent episode of CppCast and it's a really good interesting episode (and I don't say that just because she mentioned me and a load of our other friends).
+(Although I was inexplicably delighted that her description of me made laugh.)
 Have you got a cold again?
 Suffering from a self-inflicted mint and teatree shower gel injury lads
 I assume they do, but I'm not flexible enough to check
@@ -1509,12 +1507,17 @@ I have two each of kayaks and surfboards (bring Fi some time), but the shed is e
 Also, right now it's absolutely pitch black out there. Ain't nobody paddling nowhere.
 Do you want to punch him, or shall I?
  I have a a vague idea the ISBN check digit calculation involves modulo 11, which gives a range of 0 to 10.A check of 10 is encoded as X, because booksellers are all classically trained and know Latin.
-bzr, subversion, CVS, rcs, Perforce, VSS, Microsoft Delta, sccsFast (in fact so fast I still feel the need to double check now and again)Moving from local to remote and back again is straightforwardIntegrating other changes - rebasing, merging - is possible and, generally, straightforward Flexible if you need it to be It's just better
+bzr, subversion, CVS, rcs, Perforce, VSS, Microsoft Delta, sccs
+Fast (in fact so fast I still feel the need to double check now and again)
+Moving from local to remote and back again is straightforward
+Integrating other changes - rebasing, merging - is possible and, generally, straightforward
+Flexible if you need it to be
+It's just better
 With the great smell of Henry Cooper!
 I saw the picture and thought they were brownies 😢
 For what definition of small? Just you?Your email, your domain name, your phone, your accountant (I know that's not a subscription as such, but I pay a flat fee for payroll and end of year), your Internet provision, whatever you need to do your MTD VAT returns (which might depend on your accountant).Anything else depends on what you're up to 🙂 I pay for JetBrains for CLion and Webstorm and have an O'Reilly books subscription, but hardly universal needs
  Yes for insurance! (which I forgot to mention, doh) Public liability and professional indemnity. Nobody knows anyone who's ever had to claim, but there are clients that require it.
 Blimey! I was still telling mine to shut the lavvy door right up until they/we* left home* Delete as appropriate
- Yes, this.Detached Head is a place I only end up in by mistake, so want to get out of.The idea of not having a branched checked out is just weird, like you're floating between the dimensions, I'd never even thought it was something you could do. So they might be the same, but I don't know that they are and knowing git (as much as anyone does!) they're probably slightly different but only if you really look closely.
+ Yes, this. Detached Head is a place I only end up in by mistake, so want to get out of.The idea of not having a branched checked out is just weird, like you're floating between the dimensions, I'd never even thought it was something you could do. So they might be the same, but I don't know that they are and knowing git (as much as anyone does!) they're probably slightly different but only if you really look closely.
 My Android game has 8 active installs, and only 2 of them are me!
 Each week an exciting new slide, building into a beautiful presentation* that you just can't take your eyes off.*Some assembly required
