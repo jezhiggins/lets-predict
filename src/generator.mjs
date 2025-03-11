@@ -1,64 +1,62 @@
-import {make_chain} from "./chain.mjs";
-import {open} from "node:fs/promises";
-import {tokenise} from "./tokenise.mjs";
+import { make_chain } from "./chain.mjs";
+import { open } from "node:fs/promises";
+import { tokenise } from "./tokenise.mjs";
 
-const StartOfLine = Symbol('StartOfLine')
-const EndOfLine = Symbol('EndOfLine')
+const StartOfLine = Symbol("StartOfLine");
+const EndOfLine = Symbol("EndOfLine");
 
 function isTerminal(w) {
-  return w.match(/[\.!?]/)
+  return w.match(/[\.!?]/);
 }
 function isPunctuation(w) {
-  return !w.match(/[\w\d]/)
+  return !w.match(/[\w\d]/);
 }
 
 async function* wordPairs(filename) {
   const file = await open(filename);
 
   for await (const line of file.readLines()) {
-    let prev = StartOfLine
-    const tokens = tokenise(line)
+    let prev = StartOfLine;
+    const tokens = tokenise(line);
     for (const token of tokens) {
-      yield [prev, token]
+      yield [prev, token];
 
       if (isTerminal(token)) {
-        yield [token, EndOfLine]
-        prev = StartOfLine
-      }
-      else
-        prev = token
+        yield [token, EndOfLine];
+        prev = StartOfLine;
+      } else prev = token;
     }
   }
 }
 
 async function make_generator_from(filename) {
-  const generator = new Generator()
+  const generator = new Generator();
 
   for await (const [word, follower] of wordPairs(filename))
-    generator.add(word, follower)
+    generator.add(word, follower);
 
-  return generator
+  return generator;
 }
 
 class Generator {
-  #chain = make_chain()
+  #chain = make_chain();
 
   add(token, follower) {
-    this.#chain.add(token, follower)
+    this.#chain.add(token, follower);
   }
 
   sentence_from(start = StartOfLine) {
-    let all = ""
-    let word = this.#chain.predict(start)
+    let all = "";
+    let word = this.#chain.predict(start);
 
     while (word !== EndOfLine) {
-      if (!isPunctuation(word)) all += " "
-      all += word
-      word = this.#chain.predict(word)
+      if (!isPunctuation(word)) all += " ";
+      all += word;
+      word = this.#chain.predict(word);
     }
 
-    return all
+    return all;
   }
 }
 
-export {StartOfLine, make_generator_from}
+export { StartOfLine, make_generator_from };
