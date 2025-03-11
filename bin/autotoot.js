@@ -7,8 +7,9 @@ function generate(chain) {
     sentences.push(chain.sentence_from());
   } while (Math.random() < 0.6 && sentences.length < 3);
 
-  console.log("\n=============\n");
+  console.log("=============\n");
   console.log(sentences.join(" "));
+  console.log();
 }
 
 console.log("I've read all your mastodon");
