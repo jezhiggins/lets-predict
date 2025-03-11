@@ -38,18 +38,22 @@ async function make_generator_from(filename) {
   return generator;
 }
 
+function make_generator() {
+  return new Generator();
+}
+
 class Generator {
   #chain = make_chain();
 
   add(token, follower) {
-    this.#chain.add(token, follower);
+    this.#chain.add(token ?? StartOfLine, follower);
   }
 
   sentence_from(start = StartOfLine) {
     let all = "";
     let word = this.#chain.predict(start);
 
-    while (word !== EndOfLine) {
+    while (word !== EndOfLine && word !== null) {
       if (!isPunctuation(word)) all += " ";
       all += word;
       word = this.#chain.predict(word);
@@ -59,4 +63,4 @@ class Generator {
   }
 }
 
-export { StartOfLine, make_generator_from };
+export { make_generator_from, make_generator, StartOfLine, EndOfLine };
