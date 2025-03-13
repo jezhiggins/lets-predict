@@ -1,4 +1,4 @@
-import { make_generator_from } from "../src/generator.mjs";
+import { make_generator_from, make_simple_generator_from } from "../src/generator.mjs";
 
 function generate(chain) {
   const sentences = [];
@@ -15,6 +15,7 @@ function generate(chain) {
 console.log("I've read all your mastodon");
 console.log();
 
-const toots = await make_generator_from("./data/toots.txt", 2);
+const toots = await make_simple_generator_from("./data/toots.txt");
 
-for (let i = 0; i !== 10; ++i) generate(toots);
+//for (let i = 0; i !== 10; ++i) generate(toots);
+console.log(toots.next(""))

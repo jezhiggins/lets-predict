@@ -15,6 +15,18 @@ class Chain {
     return followers ? followers.select(weight) : null;
   }
 
+  next_n(token, n) {
+    const followers = this.#tokens.get(token);
+    if (!followers)
+      return []
+
+    n = Math.min(n, followers.size);
+    const next = []
+    for (let i = 0; i !== n; ++i)
+      next.push(followers.at(i).token);
+    return next;
+  }
+
   get size() {
     return this.#tokens.size;
   }

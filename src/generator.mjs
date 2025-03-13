@@ -58,6 +58,21 @@ async function make_generator_from(filename, window = 1) {
   return generator;
 }
 
+async function make_simple_generator_from(filename) {
+  const generator = new Generator();
+
+  for await (const [word, follower] of wordPairs(filename)) {
+    if (follower === StartOfLine || follower === EndOfLine)
+      continue;
+    if (isPunctuation(follower))
+      continue;
+
+    generator.add([word], follower);
+  }
+
+  return generator;
+}
+
 function make_generator() {
   return new Generator();
 }
@@ -88,6 +103,10 @@ class Generator {
 
     return all;
   }
+
+  next(start) {
+    return this.#chain.next_n([start], 3);
+  }
 }
 
-export { make_generator_from, make_generator, StartOfLine, EndOfLine };
+export { make_generator_from, make_simple_generator_from, make_generator, StartOfLine, EndOfLine };
