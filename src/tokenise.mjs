@@ -1,4 +1,4 @@
-function pop(input) {
+function streamer(input) {
   let index = 0;
   return {
     next: () => (index !== input.length ? input[index++] : null),
@@ -19,23 +19,22 @@ function isOtherCharacter(str) {
 }
 
 function* tokenise(input) {
-  const stream = pop(input);
+  const stream = streamer(input);
 
   let c = stream.next();
   while (stream.hasNext()) {
-    while (isWhitespace(c)) c = stream.next();
+    while (isWhitespace(c))
+      c = stream.next();
 
     let token = "";
-    while (isAlphanumeric(c)) {
+    for ( ; isAlphanumeric(c); c = stream.next())
       token += c;
-      c = stream.next();
-    }
-    if (token) yield token;
 
-    while (isOtherCharacter(c)) {
+    if (token)
+      yield token;
+
+    for (; isOtherCharacter(c); c = stream.next())
       yield c;
-      c = stream.next();
-    }
   }
 }
 
