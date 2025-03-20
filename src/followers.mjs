@@ -25,10 +25,10 @@ class Followers {
   add(token) {
     const existing = this.#followers.find((f) => f.token === token);
 
-    if (!existing) this.#followers.push(new Follower(token));
-    else existing.bump();
-
-    this.#followers.sort((lhs, rhs) => rhs.count - lhs.count);
+    if (!existing)
+      this.#followers.push(new Follower(token));
+    else
+      existing.bump();
   }
 
   select(weight) {
