@@ -20,8 +20,9 @@ const chain = make_chain();
 for await (const [word, follower] of wordPairs('./data/toots.txt'))
   chain.add(word, follower);
 
-const tokens = ['hello']
-for (let i = 0; i !== 12; ++i)
-  tokens.push(chain.predict(tokens[tokens.length - 1]));
-console.log(tokens.join(' '));
-
+for (let j = 0; j !== 10; ++j) {
+  const tokens = ['hello']
+  for (let i = 0; i !== 12; ++i)
+    tokens.push(chain.predict(tokens[tokens.length - 1]));
+  console.log(tokens.join(' '));
+}

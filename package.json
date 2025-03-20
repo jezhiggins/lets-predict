@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "hello-world": "node bin/predict-hello-world.js",
+    "low-value-toots": "node bin/predict-from-mastodon.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/**.test.js"
   },
   "author": "Jez Higgins, jez@jezuk.co.uk",
