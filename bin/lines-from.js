@@ -11,9 +11,8 @@ async function* wordPairs(filename) {
       yield [prev, token];
       prev = token;
     }
-
-    yield [prev, null];
   }
+  yield [prev, null];
 }
 
 const filename = process.argv[2];
