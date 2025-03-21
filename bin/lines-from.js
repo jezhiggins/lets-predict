@@ -16,12 +16,15 @@ async function* wordPairs(filename) {
   }
 }
 
+const filename = process.argv[2];
+const start_word = process.argv[3];
+
 const chain = make_chain();
-for await (const [word, follower] of wordPairs('./data/toots.txt'))
+for await (const [word, follower] of wordPairs(filename))
   chain.add(word, follower);
 
 for (let j = 0; j !== 10; ++j) {
-  const tokens = ['hello']
+  const tokens = [start_word];
   for (let i = 0; i !== 12; ++i)
     tokens.push(chain.predict(tokens[tokens.length - 1]));
   console.log(tokens.join(' '));

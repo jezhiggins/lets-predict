@@ -82,7 +82,7 @@ function esc(f) {
 }
 
 const chain = new Chain();
-for await (const [word, follower] of wordPairs('./data/toots.txt'))
+for await (const [word, follower] of wordPairs('./data/complete-sherlock-holmes.txt'))
   chain.add(word, follower);
 
 console.log("digraph finite_state_machine {");
