@@ -4,16 +4,28 @@ import { tokenise } from "./tokenise.mjs";
 
 const StartOfLine = Symbol("StartOfLine");
 const EndOfLine = Symbol("EndOfLine");
+const QuoteStart = '\u{201C}';
+const QuoteEnd = '\u{201D}';
 
 function isTerminal(w) {
-  return w.match(/[\.!?]/);
+  return [".", "!", "?"].includes(w);
 }
 function isPunctuation(w) {
   return !w.match(/[\w\d]/);
 }
+function noSpaceBefore(w) {
+  return isTerminal(w) ||
+    [",", ";", ":", QuoteEnd, ")"].includes(w);
+}
+function noSpaceAfter(line) {
+  const l = line[line.length - 1];
+  return [QuoteStart, "("].includes(l);
+}
 
 async function* wordPairs(filename) {
   const file = await open(filename);
+
+  let inQuote = false;
 
   for await (const line of file.readLines()) {
     if (line.length === 0)
@@ -21,7 +33,12 @@ async function* wordPairs(filename) {
 
     let prev = StartOfLine;
     const tokens = tokenise(line);
-    for (const token of tokens) {
+    for (let token of tokens) {
+      if (token === '"') {
+        token = inQuote ? QuoteStart : QuoteEnd;
+        inQuote = !inQuote;
+      }
+
       yield [prev, token];
 
       if (isTerminal(token)) {
@@ -96,11 +113,17 @@ class Generator {
 
     while (word !== EndOfLine && word !== null) {
       tokens = token_window(tokens, this.#window, word);
-      if (!isPunctuation(word)) all += " ";
+
+      if (!noSpaceBefore(word) && !noSpaceAfter(all))
+        all += " ";
+
       all += word;
+
       word = this.#chain.predict(tokens);
     }
 
+    if (all.length <= 1)
+      return this.sentence_from(start);
     return all;
   }
 
