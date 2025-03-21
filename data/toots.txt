@@ -1,7 +1,7 @@
 I saw him on the Uncaged Monkeys tour about ten years ago.his bit was a pretty straight astrophysics lecture and he was terrific. You'll have a top time.
 All of the above. C'mon, you know it.
 Ahoy!
-🍦🍦 First Ice Cream Van Of The Year 🍦🍦Latest analysis with, for the first time, projections on next year's first ice cream van. 
+First Ice Cream Van Of The Year! Latest analysis with, for the first time, projections on next year's first ice cream van. 
 You the OG
 Jasper Carrott did a set at Cropredy about 10 years ago. Harry would have been about 9 years old, and he absolutely lapped it up, mainly I think because he opened by talking about Moseley Mixed School which is about 5 minutes down the road. Takes all sorts 🙂
 I'm forever grateful to him for, back when, introducing me to the songs of Louden Wainwright.
@@ -980,11 +980,11 @@ Read a line, which is some kind of command - 1,$p or something, normal vi talkPa
 That's all fine. Except. Except.     buffer_.set_dot(command.dot);is arse-backward.
 It's rubbed me wrong all day.
 All day, I've been thinking I should swap it around, from buffer_.set_dot(command.dot); to command.apply_dot(buffer_); or something like that.
-But what's the very next line? command(in, out, buffer_, filename_);command and buffer_ again. DohThere shouldn't even be two calls. The set_dot call should be folded into the command execution. 
+But what's the very next line? command(in, out, buffer_, filename_);command and buffer_ again. Doh! There shouldn't even be two calls. The set_dot call should be folded into the command execution. 
 I'd been intending to do a one line change - the _obvious_ change, 2 minute job, just to smooth things out, make it easier to read - but until you get the code in your hands, you never really know what it's going to tell or what you're going to do with it.
 Thirty years, I've been doing this, (forty if you're feeling generous) and the code can still surprise me.
 This bird now routinely joins our builders on their lunch break.
-I feel you. There was a road closure on my doorstep, and it took me about ten minutes to parse out "extending from 200m south of the junction of the A487 with the road linking the Ariu with Cae Tabor upto a point..."Turns out it's quite difficult to describe a road closure when some of the roads involved don't have names, some do but nobody calls them that, and you pointedly ignore well-known local landmarks 🤷🏽‍♂️
+I feel you. There was a road closure on my doorstep, and it took me about ten minutes to parse out "extending from 200m south of the junction of the A487 with the road linking the Ariu with Cae Tabor upto a point..."Turns out it's quite difficult to describe a road closure when some of the roads involved don't have names, some do but nobody calls them that, and you pointedly ignore well-known local landmarks 🤷
 Mushroom risotto 😢
 Arf! 
 Days since I typed a command into a chat window instead of a terminal : 0
@@ -1846,7 +1846,7 @@ All this "I was at university with" stuff meant I thought my Dad actually had a 
 I'm pretty sure the only reason he got in was my Grandad's personal connections. My Grandad was recruited by John Maynard Keynes to set up and run the Cambridge Arts Theatre. Keynes was Master of Kings College at the time, and although he'd been dead for years by the time my dad went to university, I don't believe it was a coincidence he was admitted to Kings College.
 Ruin the magic, why don't you
 The approach  was reaching for is Strangler Fig.
-⚠️ Warning ⚠️
+Warning 
 This is important work going on right here The Zines | The BugPowder zine archive 
 Copromancy is real! BBC News: Racehorse poo analysis predicts future success 
 Please enjoy my new zine
