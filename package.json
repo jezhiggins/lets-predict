@@ -7,6 +7,7 @@
   "scripts": {
     "hello-world": "node bin/predict-hello-world.js",
     "low-value-toots": "node bin/lines-from.js ./data/toots.txt the",
+    "mid-value-toots": "node bin/autotoot.js",
     "oh-mr-darcy": "node bin/lines-from.js ./data/pride-and-prejudice.txt the",
     "commonplace": "node bin/lines-from.js ./data/complete-sherlock-holmes.txt the",
     "austenesque": "node bin/automeme.js ./data/pride-and-prejudice.txt",

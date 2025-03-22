@@ -7,7 +7,6 @@ function generate(chain) {
     sentences.push(chain.sentence_from());
   } while (sentences.length <= 3 || Math.random() < 0.6);
 
-  console.log("=============\n");
   console.log(sentences.join(" "));
   console.log();
 }
