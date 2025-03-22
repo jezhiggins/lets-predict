@@ -6,9 +6,12 @@
   "type": "module",
   "scripts": {
     "hello-world": "node bin/predict-hello-world.js",
-    "low-value-toots": "node bin/lines-from.js ./data/toots.txt hello",
-    "oh-mr-darcy": "node bin/lines-from.js ./data/pride-and-prejudice.txt dear",
-    "commonplace": "node bin/lines-from.js ./data/complete-sherlock-holmes.txt Watson",
+    "low-value-toots": "node bin/lines-from.js ./data/toots.txt the",
+    "oh-mr-darcy": "node bin/lines-from.js ./data/pride-and-prejudice.txt the",
+    "commonplace": "node bin/lines-from.js ./data/complete-sherlock-holmes.txt the",
+    "austenesque": "node bin/automeme.js ./data/pride-and-prejudice.txt",
+    "holmesian": "node bin/automeme.js ./data/complete-sherlock-holmes.txt",
+    "chimera": "node bin/chimera.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/**.test.js"
   },
   "author": "Jez Higgins, jez@jezuk.co.uk",

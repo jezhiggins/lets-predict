@@ -5,13 +5,16 @@ function generate(chain) {
 
   do {
     sentences.push(chain.sentence_from());
-  } while (Math.random() < 0.6 && sentences.length < 3);
+  } while (sentences.length <= 3 || Math.random() < 0.6);
 
   console.log("=============\n");
   console.log(sentences.join(" "));
   console.log();
 }
 
-const toots = await make_generator_from("./data/meme-soc.txt", 2);
+const filename = process.argv[2];
+const window = process.argv.length === 4 ? process.argv[3] : 1;
 
-for (let i = 0; i !== 10; ++i) generate(toots);
+const toots = await make_generator_from(filename, window);
+
+generate(toots);

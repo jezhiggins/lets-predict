@@ -27,11 +27,11 @@ async function* wordPairs(filename) {
 
   let inQuote = false;
 
+  let prev = StartOfLine;
   for await (const line of file.readLines()) {
     if (line.length === 0)
       continue;
 
-    let prev = StartOfLine;
     const tokens = tokenise(line);
     for (let token of tokens) {
       if (token === '"') {
@@ -46,10 +46,10 @@ async function* wordPairs(filename) {
         prev = StartOfLine;
       } else prev = token;
     }
-
-    if (prev !== StartOfLine)
-      yield [prev, EndOfLine];
   }
+
+  if (prev !== StartOfLine)
+    yield [prev, EndOfLine];
 }
 
 function token_window(tokens, window, word = StartOfLine) {
@@ -60,18 +60,21 @@ function token_window(tokens, window, word = StartOfLine) {
   return tokens;
 }
 
-async function make_generator_from(filename, window = 1) {
+async function make_generator_from(filenames, window = 1) {
   const generator = new Generator(window);
 
+  if (!Array.isArray(filenames))
+    filenames = [filenames];
+
   let tokens = token_window([], window);
+  for (const filename of filenames)
+    for await (const [word, follower] of wordPairs(filename)) {
+      tokens = word === StartOfLine
+        ? token_window([],window)
+        : token_window(tokens, window, word)
 
-  for await (const [word, follower] of wordPairs(filename)) {
-    tokens = word === StartOfLine
-      ? token_window([],window)
-      : token_window(tokens, window, word)
-
-    generator.add(tokens, follower);
-  }
+      generator.add(tokens, follower);
+    }
   return generator;
 }
 
